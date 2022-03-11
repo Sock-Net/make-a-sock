@@ -21,6 +21,8 @@ And you must write-read a object that has:
 - `data` (string): This key can hold any data.
 - `from` (string): For see who sent the message.
 
+If type is less than zero (0), Message is for pinging server to keep connection alive.
+
 Please check [Lightweight Sock Server](https://github.com/Sock-Net/sock) to understand how it works.
 
 ## Making a Sock Client
